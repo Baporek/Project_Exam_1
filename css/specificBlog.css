@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+}
+
+.return-blog-btn {
+    text-align: center;
+    margin: 25px;
+}
+
+.return-blog-btn a {
+    background-color: #872761;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 7px;
+    border-radius: 5px;
+}
+
+.return-blog-btn a:hover {
+    background-color: white;
+    color: #872761;
+    border: gray 2px solid;
+    cursor: pointer;
+}
+
+.header p {
+    max-width: 800px;
+    margin: 20px auto;
+    font-size: 20px;
+    padding: 15px;
+}
+
+#showDetails p {
+    max-width: 800px;
+    margin: 20px auto;
+}

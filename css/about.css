@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+}
+
+div.about_title {
+    margin-top: 20px;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.jsonContent {
+    text-align: center;
+}
+
+img.alignnone {
+    width: 60%;
+    height: 80%;
+    float: left;
+    margin-right: 15px;
+}
+
+.elementor-widget-container ul {
+    color: #851f5c;
+    font-family: 'Roboto', sans-serif;
+    line-height: 2;
+    margin-top: 3%;
+    padding: 20px;
+    font-size: 25px;
+}
+
+h1.elementor-heading-title {
+    color: #a00c65;
+    padding: 30px;
+    margin-top: 3%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+}

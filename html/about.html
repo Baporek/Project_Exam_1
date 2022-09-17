@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/navbar.css">
+	<link rel="stylesheet" href="css/about.css">
+    <title>About</title>
+</head>
+<body>
+    <ul>
+		<li><a href="home.html">Home</a></li>
+		<li><a href="blogList.html">Blog List</a></li>
+		<li><a href="contact.html">Contact</a></li>
+		<li><a class="active" href="about.html">About</a></li>
+	</ul>
+<div class="api_about"></div>
+	
+<script>
+	const aboutContainer = document.querySelector(".api_about");
+	const wpUrl = "https://baporek.com/project_exam_1/wp-json/wp/v2/pages/46";
+	
+	async function fetchAbout(){
+
+try{		
+	const response = await fetch(wpUrl);
+	const wpJsonAbout = await response.json();
+	console.log(wpJsonAbout);
+
+	aboutContainer.innerHTML += 
+	`<div class="about_title">${wpJsonAbout.title.rendered}</div>
+	<div class="jsonContent">${wpJsonAbout.content.rendered} </div>`;
+   }
+   catch(error){
+	   console.log("apiInvalid");
+   }
+}
+fetchAbout();
+
+</script>
+</body>
+</html>
+
+

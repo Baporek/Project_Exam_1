@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/navbar.css">
+	<link rel="stylesheet" href="css/contact.css">
+	<title>Contact</title>
+</head>
+
+<body>
+	<ul>
+		<li><a href="home.html">Home</a></li>
+		<li><a href="blogList.html">Blog List</a></li>
+		<li><a class="active" href="contact.html">Contact</a></li>
+		<li><a href="about.html">About</a></li>
+	</ul>
+
+	<div class="container">
+		<h1>Contact Us</h1>
+		<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt esse dicta provident iure obcaecati. Quos
+			provident explicabo eius adipisci! Quas atque debitis error, quia doloribus nam ullam perspiciatis corrupti
+			minima.</p>
+		<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint itaque tempore labore! Accusantium aut vel ab,
+			numquam aliquam fuga reiciendis, iste doloribus hic sint repellendus, veritatis provident impedit
+			praesentium dolores.
+			Quidem totam nihil placeat. Perferendis quia rerum ut quidem dicta fugiat alias error odit velit, enim
+			necessitatibus quaerat libero ipsum harum, itaque numquam totam minus animi nobis! Expedita, eius eos!
+			Nesciunt molestiae corporis culpa fugiat, dicta voluptates nobis eligendi, error ratione placeat aliquid,
+			tenetur cum. Et tempore quibusdam ducimus libero qui aperiam odio natus eos, cupiditate, suscipit fugit esse
+			quaerat?</p>
+
+		<div class="form">
+			<h3><u>Fill the following form & press submit.</u></h3>
+			<label>Name &nbsp;</label>
+			<input type="text" class="input" id="name" /><br/>
+			<label>Email &nbsp;</label>
+			<input type="email" class="input" id="email" /><br/>
+			<label>Subject</label>
+			<input type="text" class="input" id="subject" /><br/>
+			<label><p>Message</p></label>
+			<textarea id="msg" rows="5" cols="40"></textarea>
+
+			<button type="button" class="btn" onclick="submit()">Submit</button>
+		</div>
+	</div>
+
+	<script>
+		function submit() {
+			let name = document.getElementById('name').value;
+			let email = document.getElementById('email').value;
+			let subject = document.getElementById('subject').value;
+			let msg = document.getElementById('msg').value;
+			if(name === "" || email === "" || subject === "" || msg === "") {
+				alert('please fill all the complete form.');
+				return;
+			}
+			if(name.length <= 5) {
+				alert('Name should be more that five characters long.')
+				return;
+			}
+			var validRegex = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
+			if (!email.match(validRegex)) {
+				alert('Email is not correct. Please give a valid email address.')
+				return;
+			}
+			if(subject.length <= 15) {
+				alert('Subject should be more that fifteen characters long.')
+				return;
+			}
+			if(msg.length <= 25) {
+				alert('Message should be more that twenty-five characters long.')
+				return;
+			}
+			alert("Your form has been submitted. Thanks!");
+			clearForm();
+		}
+
+		function clearForm() {
+			document.getElementById('name').value = "";
+			document.getElementById('email').value = "";
+			document.getElementById('subject').value = "";
+			document.getElementById('msg').value = "";
+		}
+	</script>
+</body>
+
+</html>
