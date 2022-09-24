@@ -1,16 +1,17 @@
 # Project_Exam_1
 
-A simple overview of the use/purpose of the project.
+
+
+The current assignment will exeminate the skills and experience you gained in first year of studies
 
 ## Description
+The main task in this topic will be to build your own blog, style and design is dependent of you. However, it has several requirements and must have the following subpages:
 
-Add a more detailed description of what your project entails and set out to do.
-
-You can add some bullet points if you'd like to:
-
-- List item 1
-- List item 2
-- List item 3
+    - Home
+    - About
+    - List of blog posts
+    - Blog post specific page
+    - Contact
 
 ## Built With
 
