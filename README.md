@@ -1,6 +1,6 @@
 # Project_Exam_1
 
-
+![Caffe_blog2](https://user-images.githubusercontent.com/74684378/192103802-40a1d576-1f6d-4d3f-ab90-3234908d98e1.jpg)
 
 The current assignment will exeminate the skills and experience you gained in first year of studies
 
