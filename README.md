@@ -31,7 +31,7 @@ Here is the repo can be used and clone to fallow the current changes
 1. Clone the repo:
 
 ```bash
-[My repo] (https://github.com/Baporek/Project_Exam_1.git)
+https://github.com/Baporek/Project_Exam_1.git
 ```
 
 ## Contributing
