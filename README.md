@@ -5,7 +5,8 @@
 The current assignment will exeminate the skills and experience you gained in first year of studies
 
 ## Description
-The main task in this topic will be to build your own blog, style and design is dependent of you. However, it has several requirements and must have the following subpages:
+I set out to make a website for an blog page. First I researched blogs similar pages and created a my own blog.
+It has several subpages:
 
     - Home
     - About
@@ -14,56 +15,32 @@ The main task in this topic will be to build your own blog, style and design is 
     - Contact
 
 ## Built With
+Stacks I used to build the project:
 
-You can list a the tech stack that you've used over here
-
-- [React.js](https://reactjs.org/)
-- [Bootstrap](https://getbootstrap.com)
+- JavaScript
+- HTML
+- CSS
+- Wordpress
 
 ## Getting Started
 
 ### Installing
 
-This is where you list how to get the project started. It typically just includes telling a person to clone the repo and then to install the dependencies e.g.
+Here is the repo can be used and clone to fallow the current changes
 
 1. Clone the repo:
 
 ```bash
-git clone git@github.com:NoroffFEU/portfolio-1-example.git
-```
-
-2. Install the dependencies:
-
-```
-npm install
-```
-
-### Running
-
-Here is where you detail how to run the app. It typically involves the commands you'd need to run to start the project e.g.
-
-To run the app, run the following commands:
-
-```bash
-npm run start
+[git clone git@github.com:NoroffFEU/portfolio-1-example.git](https://github.com/Baporek/Project_Exam_1.git)
 ```
 
 ## Contributing
 
-Here you can detail any information you want to provide regarding contributing to the project. For big projects you will usually have a separate `CONTRIBUTING.md` and link to it, but for smaller projects you can simply include instructions here. These instructions can simply detail the process you want a person to take, such as to make sure to open a pull request so code can be reviewed.
+If you want to be the part of this project, feel free to use git repo above for additional commits.
 
 ## Contact
+For contact regarding the project, please use the links below:
 
-This is where you can leave your social links for people to contact you, such as a LinkedIn profile or Twitter link e.g.
+[My Twitter](www.twitter.com)
 
-[My Twitter page](www.twitter.com)
-
-[My LinkedIn page](www.linkedin.com)
-
-## License
-
-You can link to your license file here if you're using one, or mention what license the codebase falls under. If you're unsure then you can simply delete this section.
-
-## Acknowledgments
-
-This is where you can add any acknowledgements if you'd like, such as to people who have helped you or any code snippets you'd like to mention. You can delete this section if you don't have any acknowledgements to make.
+[My LinkedIn](www.linkedin.com)
